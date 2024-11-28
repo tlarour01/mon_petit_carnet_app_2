@@ -1,0 +1,50 @@
+name: mon_petit_carnet
+description: Une application de partage de recettes familiales
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  google_sign_in: ^6.1.6
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.5
+  cached_network_image: ^3.3.0
+  uuid: ^4.2.2
+  intl: ^0.19.0
+  path: ^1.8.3
+  flutter_cache_manager: ^3.3.1
+  package_info_plus: ^5.0.1
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  url_launcher: ^6.2.2
+  share_plus: ^7.2.1
+  photo_view: ^0.14.0
+  google_mobile_ads: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700

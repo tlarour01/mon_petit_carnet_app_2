@@ -1,0 +1,28 @@
+{
+  "project_info": {
+    "project_number": "615875532061",
+    "project_id": "mon-petit-carnet-b8887",
+    "storage_bucket": "mon-petit-carnet-b8887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615875532061:android:xxxxxxxxxxxxxxxxxxxxxxxx",
+        "android_client_info": {
+          "package_name": "com.example.mon_petit_carnet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ]
+}
